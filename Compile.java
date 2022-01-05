@@ -21,38 +21,8 @@ public class Compile {
         System.out.println(text);
     }
 
-    static void input(String question) {
-        print(question);
-        print("");
-
-        // String[] lines;
-
-        List<Integer> lines = new ArrayList<Integer>(Arrays.asList(arr));
-
-        // lines.add("vdfvdfv");
-
-        lines.
-
-                System.out.print(lines);
-        // String results = "\n";
-        // Scanner inputObj = new Scanner(System.in);
-
-        // while (true) {
-        // String inputData = inputObj.nextLine();
-
-        // if (inputData) {
-        // lines.add(inputData);
-        // } else {
-        // break;
-        // }
-        // }
-        // results.concat(lines);
-    }
-
     static void info() {
         print("Welcome To Lagrange Interpolation Compiler");
-        print("");
-        print("-r --run : run and compile java codes");
         print("");
         print("-l-c --langrange-compile : compile the LagrangeInterpolation");
         print("");
@@ -86,9 +56,6 @@ public class Compile {
                 return;
             }
             compileJavaFileCode(filename, "dscdsc");
-        } else if ("-r".equals(options) || "--run".equals(options)) {
-            // run some codes here
-            runJavaCode();
         } else if ("-l-c".equals(options) || "--langrange-compile".equals(options)) {
             // compile lagrange codes here
             Lagrange();
@@ -98,11 +65,6 @@ public class Compile {
             print("");
             info();
         }
-
-        // String codeSnippets = scannerObj.nextLine();
-
-        // check if filename is empty
-
     }
 
     static Boolean fileExist(String filename) {
@@ -232,10 +194,4 @@ public class Compile {
         System.out.println("When x = " + x + "," + " y = " + y);
     }
 
-    static void runJavaCode() {
-        print("");
-        String inp = input("Provide the name of the file you wanna create without having extensions");
-
-        // print(inp);
-    }
 }
