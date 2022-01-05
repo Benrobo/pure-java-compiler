@@ -3,7 +3,6 @@
 import java.io.FileNotFoundException; // Import this class to handle errors
 import java.util.List;
 import java.util.Scanner; // Import the Scanner class to read text files
-import java.util.Locale.LanguageRange;
 import java.io.File;
 import java.nio.file.Paths;
 import java.io.IOException;
